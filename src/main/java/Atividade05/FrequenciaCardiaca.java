@@ -54,4 +54,10 @@ public class FrequenciaCardiaca {
         System.out.println("Frequencia Maxima: " + frequencia);
         return null;
     }
+    public Object frequenciaAlvo(){
+        double alvo1 = 0.5 * (220 - (2023 - ano));
+        double alvo2 = 0.85 * (220 - (2023 - ano));
+        System.out.println("Frequencia Alvo: " + alvo1 + " - " + alvo2);
+        return null;
+    }
 }

@@ -29,5 +29,6 @@ public class Main {
         System.out.printf("Nome: %s %s\n", pessoa.getNome(), pessoa.getSobrenome());
         pessoa.idadeAnos();
         pessoa.frequenciaMaxima();
+        pessoa.frequenciaAlvo();
     }
 }
